@@ -1,0 +1,17 @@
+import math
+
+'''
+Criar um algoritmo que leia um ângulo em graus e apresente:
+1- O seno do ângulo, se o ângulo pertencer a um quadrante par;
+2- O co-seno do ângulo, se o ângulo pertencer a um quadrante ímpar. 
+'''
+
+ang = float(input("Digite ângulo em graus: "))
+rang = ang * math.pi / 180
+
+if (rang > math.pi/2 and rang <= math.pi) or (rang > 3*math.pi/2 and rang <= 2*math.pi):
+    print("Seno:", math.sin(rang))
+else:
+    print("Co-seno:", math.cos(rang))
+
+print()
