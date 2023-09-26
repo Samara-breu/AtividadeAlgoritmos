@@ -1,3 +1,11 @@
+'''
+Entrar com o valor de x e imprimir y:
+í 1, se x <=1
+y =f(x) 2; 5e 1 <x<_ 2
+x ,se2<x<=3
+x 3 , sex >3
+'''
+
 x = float(input("Digite o valor de x: "))
 
 if x <= 1:
