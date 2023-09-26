@@ -1,5 +1,7 @@
 import math
 
+#Criar um algoritmo que entre com o valor dex calcule e imprima o valor de f(x)
+
 def f(x):
     return (5 * x + 3) / math.sqrt(x**2 - 16)
 
